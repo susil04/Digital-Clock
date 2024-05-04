@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    font: bold 10px;
+}
+.clock{
+    border: 3px solid blue;
+    padding: 50px;
+    border-radius: 50px 20px ;
+}
+    
+#date{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: blue;
+}
+.clock ul{
+     list-style: none;
+     display: flex;
+     font-size: 90px;
+     gap: 20px;
+}
+
+#hours{
+    border: 2px solid rgb(0, 0, 0);
+    color: blue;
+   
+}
+/* #hours:hover{
+    background-color: brown;
+    transform:rotate(20deg );
+} */
+#min{
+    border: 2px solid rgb(0, 0, 0);
+    color: blue;
+}
+/* #min:hover{
+    background-color: brown;
+    transform:rotate(20deg );
+} */
+#sec{
+    border: 2px solid rgb(0, 0, 0);
+    color: blue;
+}
+/* #sec:hover{
+    background-color: brown;
+    transform:rotate(20deg );
+} */
+#point{
+    color: blue;
+}
+
